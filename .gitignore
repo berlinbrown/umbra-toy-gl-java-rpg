@@ -4,3 +4,21 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+*.jar
+
+# Ignore the local Gradle cache directory
+.gradle/
+
+# Ignore all generated build outputs (compiled code, jars, test reports)
+**/build/
+
+# Ignore Gradle GUI configuration files
+gradle-app.setting
+.gradletasknamecache
+
+# DO NOT ignore the Gradle Wrapper files (vital for your team!)
+!gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+target
